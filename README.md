@@ -84,20 +84,23 @@ int main() {
 
 ```
 CBT_Application/
-|-- src/
-|   |-- main.cpp          # Main application code
-|   |-- cbt_application.h # Header file for CBT application class
-|   |-- cbt_application.cpp # Implementation file for CBT application class
-|   |-- question.h        # Header file for question structure
-|   |-- user.h            # Header file for user structure
-|   |-- utilities.h       # Header file for utility functions
+|-- CMakeLists.txt
+|-- build.sh
+|-- cmake.sh
+|-- logs.txt
+|-- run.sh
+|-- t.txt
+|-- main.cpp
+|-- cbt_application.cpp
+|-- cbt_application.h
+|-- question.h
+|-- user.h
+|-- utils.h
 |-- data/
-|   |-- question_bank.txt  # File containing bulk questions
-|   |-- user_data.txt      # File containing user login details
-|-- docs/
-|   |-- design.md          # Design document
-|-- build/                 # Compiled binaries
-|-- README.md              # Project documentation
+|   |-- question_bank.txt
+|   |-- user_data.txt
+
+
 ```
 
 This folder architecture separates source code, data files, and documentation for a well-organized CBT application project.
