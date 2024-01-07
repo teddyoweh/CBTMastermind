@@ -4,18 +4,10 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <string>
 
-struct Question {
-    std::string questionText;
-    std::vector<std::string> options;
-    char correctOption;
-};
-
-struct User {
-    std::string username;
-    std::string password;
-    std::map<int, char> userResponses; // Mapping question number to user's chosen option
-};
+#include "includes/user.h"
+#include "includes/question.h"
 
 class CBTApplication {
 public:
