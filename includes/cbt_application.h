@@ -6,8 +6,8 @@
 #include <map>
 #include <string>
 
-#include "includes/user.h"
-#include "includes/question.h"
+#include "user.h"
+#include "question.h"
 
 class CBTApplication {
 public:
