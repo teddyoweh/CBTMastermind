@@ -1,0 +1,133 @@
+ld: Undefined symbols:
+  CBTApplication::viewTestScript(), referenced from:
+      _main in main-df2421.o
+  CBTApplication::bulkUploadQuestions(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&), referenced from:
+      _main in main-df2421.o
+  CBTApplication::bulkUploadUserDetails(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&), referenced from:
+      _main in main-df2421.o
+  CBTApplication::takeTest(), referenced from:
+      _main in main-df2421.o
+  CBTApplication::loginUser(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&), referenced from:
+      _main in main-df2421.o
+  std::__1::locale::use_facet(std::__1::locale::id&) const, referenced from:
+      std::__1::ctype<char> const& std::__1::use_facet[abi:v160006]<std::__1::ctype<char>>(std::__1::locale const&) in main-df2421.o
+  std::__1::ios_base::getloc() const, referenced from:
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>, std::__1::allocator<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>&) in main-df2421.o
+      std::__1::basic_ios<char, std::__1::char_traits<char>>::widen[abi:v160006](char) const in main-df2421.o
+  std::logic_error::logic_error(char const*), referenced from:
+      std::length_error::length_error[abi:v160006](char const*) in main-df2421.o
+  std::length_error::~length_error(), referenced from:
+      std::__1::__throw_length_error[abi:v160006](char const*) in main-df2421.o
+  std::bad_array_new_length::bad_array_new_length(), referenced from:
+      std::__throw_bad_array_new_length[abi:v160006]() in main-df2421.o
+  std::bad_array_new_length::~bad_array_new_length(), referenced from:
+      std::__throw_bad_array_new_length[abi:v160006]() in main-df2421.o
+  std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__init(char const*, unsigned long), referenced from:
+      std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::basic_string[abi:v160006]<std::nullptr_t>(char const*) in main-df2421.o
+  std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__init(unsigned long, char), referenced from:
+      std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::basic_string[abi:v160006](unsigned long, char) in main-df2421.o
+  std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::push_back(char), referenced from:
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>, std::__1::allocator<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>&) in main-df2421.o
+  std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::~basic_string(), referenced from:
+      Utilities::getYesNoInput(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) in main-df2421.o
+      Utilities::getYesNoInput(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) in main-df2421.o
+      std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> std::__1::operator+[abi:v160006]<char, std::__1::char_traits<char>, std::__1::allocator<char>>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, char const*) in main-df2421.o
+      _main in main-df2421.o
+      _main in main-df2421.o
+      _main in main-df2421.o
+      _main in main-df2421.o
+      _main in main-df2421.o
+      _main in main-df2421.o
+      _main in main-df2421.o
+      _main in main-df2421.o
+      _main in main-df2421.o
+      _main in main-df2421.o
+      _main in main-df2421.o
+      _main in main-df2421.o
+      ...
+  std::__1::basic_istream<char, std::__1::char_traits<char>>::ignore(long, int), referenced from:
+      Utilities::clearInputBuffer() in main-df2421.o
+  std::__1::basic_istream<char, std::__1::char_traits<char>>::sentry::sentry(std::__1::basic_istream<char, std::__1::char_traits<char>>&, bool), referenced from:
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, char&) in main-df2421.o
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>, std::__1::allocator<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>&) in main-df2421.o
+  std::__1::basic_ostream<char, std::__1::char_traits<char>>::put(char), referenced from:
+      std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::endl[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&) in main-df2421.o
+  std::__1::basic_ostream<char, std::__1::char_traits<char>>::flush(), referenced from:
+      std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::endl[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&) in main-df2421.o
+  std::__1::basic_ostream<char, std::__1::char_traits<char>>::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char>>&), referenced from:
+      std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::__put_character_sequence[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*, unsigned long) in main-df2421.o
+  std::__1::basic_ostream<char, std::__1::char_traits<char>>::sentry::~sentry(), referenced from:
+      std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::__put_character_sequence[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*, unsigned long) in main-df2421.o
+      std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::__put_character_sequence[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*, unsigned long) in main-df2421.o
+  std::__1::cin, referenced from:
+      Utilities::clearInputBuffer() in main-df2421.o
+      char Utilities::getUserInput<char>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) in main-df2421.o
+      std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> Utilities::getUserInput<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) in main-df2421.o
+  std::__1::cout, referenced from:
+      char Utilities::getUserInput<char>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) in main-df2421.o
+      _main in main-df2421.o
+      std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> Utilities::getUserInput<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) in main-df2421.o
+  std::__1::ctype<char>::id, referenced from:
+      std::__1::ctype<char> const& std::__1::use_facet[abi:v160006]<std::__1::ctype<char>>(std::__1::locale const&) in main-df2421.o
+  std::__1::locale::~locale(), referenced from:
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>, std::__1::allocator<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>&) in main-df2421.o
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>, std::__1::allocator<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>&) in main-df2421.o
+      std::__1::basic_ios<char, std::__1::char_traits<char>>::widen[abi:v160006](char) const in main-df2421.o
+      std::__1::basic_ios<char, std::__1::char_traits<char>>::widen[abi:v160006](char) const in main-df2421.o
+  std::__1::ios_base::__set_badbit_and_consider_rethrow(), referenced from:
+      std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::__put_character_sequence[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*, unsigned long) in main-df2421.o
+  std::__1::ios_base::clear(unsigned int), referenced from:
+      std::__1::basic_ios<char, std::__1::char_traits<char>>::clear[abi:v160006](unsigned int) in main-df2421.o
+      std::__1::ios_base::setstate[abi:v160006](unsigned int) in main-df2421.o
+  std::terminate(), referenced from:
+      ___clang_call_terminate in main-df2421.o
+  typeinfo for std::length_error, referenced from:
+      std::__1::__throw_length_error[abi:v160006](char const*) in main-df2421.o
+  typeinfo for std::bad_array_new_length, referenced from:
+      std::__throw_bad_array_new_length[abi:v160006]() in main-df2421.o
+  vtable for std::length_error, referenced from:
+      std::length_error::length_error[abi:v160006](char const*) in main-df2421.o
+  operator delete(void*), referenced from:
+      std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, char>, void*>>::deallocate[abi:v160006](std::__1::__tree_node<std::__1::__value_type<int, char>, void*>*, unsigned long) in main-df2421.o
+      void std::__1::__libcpp_operator_delete[abi:v160006]<void*>(void*) in main-df2421.o
+      std::__1::allocator<User>::deallocate[abi:v160006](User*, unsigned long) in main-df2421.o
+      std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>::deallocate[abi:v160006](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*, unsigned long) in main-df2421.o
+      std::__1::allocator<Question>::deallocate[abi:v160006](Question*, unsigned long) in main-df2421.o
+  operator new(unsigned long), referenced from:
+      std::__1::allocator<char>::allocate[abi:v160006](unsigned long) in main-df2421.o
+      void* std::__1::__libcpp_operator_new[abi:v160006]<unsigned long>(unsigned long) in main-df2421.o
+  ___cxa_allocate_exception, referenced from:
+      std::__throw_bad_array_new_length[abi:v160006]() in main-df2421.o
+      std::__1::__throw_length_error[abi:v160006](char const*) in main-df2421.o
+  ___cxa_begin_catch, referenced from:
+      ___clang_call_terminate in main-df2421.o
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, char&) in main-df2421.o
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>, std::__1::allocator<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>&) in main-df2421.o
+      std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::__put_character_sequence[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*, unsigned long) in main-df2421.o
+  ___cxa_call_unexpected, referenced from:
+      std::__1::vector<User, std::__1::allocator<User>>::__base_destruct_at_end[abi:v160006](User*) in main-df2421.o
+      std::__1::__tree<std::__1::__value_type<int, char>, std::__1::__map_value_compare<int, std::__1::__value_type<int, char>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, char>>>::destroy(std::__1::__tree_node<std::__1::__value_type<int, char>, void*>*) in main-df2421.o
+      std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, char>, void*>>::deallocate[abi:v160006](std::__1::__tree_node<std::__1::__value_type<int, char>, void*>*, unsigned long) in main-df2421.o
+      std::__1::allocator<User>::deallocate[abi:v160006](User*, unsigned long) in main-df2421.o
+      std::__1::vector<Question, std::__1::allocator<Question>>::__base_destruct_at_end[abi:v160006](Question*) in main-df2421.o
+      std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>>::__base_destruct_at_end[abi:v160006](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*) in main-df2421.o
+      std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>::deallocate[abi:v160006](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*, unsigned long) in main-df2421.o
+      ...
+  ___cxa_end_catch, referenced from:
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, char&) in main-df2421.o
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, char&) in main-df2421.o
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>, std::__1::allocator<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>&) in main-df2421.o
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>, std::__1::allocator<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>&) in main-df2421.o
+      std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::__put_character_sequence[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*, unsigned long) in main-df2421.o
+      std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::__put_character_sequence[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*, unsigned long) in main-df2421.o
+  ___cxa_free_exception, referenced from:
+      std::__1::__throw_length_error[abi:v160006](char const*) in main-df2421.o
+  ___cxa_rethrow, referenced from:
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, char&) in main-df2421.o
+      std::__1::basic_istream<char, std::__1::char_traits<char>>& std::__1::operator>>[abi:v160006]<char, std::__1::char_traits<char>, std::__1::allocator<char>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>&) in main-df2421.o
+  ___cxa_throw, referenced from:
+      std::__throw_bad_array_new_length[abi:v160006]() in main-df2421.o
+      std::__1::__throw_length_error[abi:v160006](char const*) in main-df2421.o
+  ___gxx_personality_v0, referenced from:
+      /private/var/folders/pp/ky6gnf7x3w901t4hrc3hznnc0000gn/T/main-df2421.o
+clang: error: linker command failed with exit code 1 (use -v to see invocation)

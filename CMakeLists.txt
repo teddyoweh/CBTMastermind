@@ -1,8 +1,15 @@
-cmake_minimum_required(VERSION 3.10)
-
-project(CBTApplication)
-add_executable(CBTApplication src/main.cpp src/cbt_application.cpp src/question.cpp src/user.cpp src/utils.cpp)
-target_include_directories(CBTApplication PRIVATE includes)
-set_target_properties(CBTApplication PROPERTIES CXX_STANDARD 11)
-
- 
+cmake_minimum_required(VERSION 3.12)
+project(CBT_Application)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(SOURCES
+    main.cpp
+    cbt_application.cpp
+    includes/cbt_application.h
+    includes/question.h
+    includes/user.h
+    includes/utils.h
+)
+add_executable(CBT_Application ${SOURCES})
+target_include_directories(CBT_Application PRIVATE includes)
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)

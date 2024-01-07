@@ -5,15 +5,17 @@
 #include <vector>
 #include <map>
 #include <string>
-
-#include "user.h"
+ 
+#include "utils.h"
 #include "question.h"
+#include "user.h"
+ 
 
 class CBTApplication {
 public:
     void bulkUploadQuestions(const std::string& filePath);
     void bulkUploadUserDetails(const std::string& filePath);
-    void loginUser(const std::string& username, const std::string& password);
+    bool loginUser(const std::string& username, const std::string& password);
     void displayQuestion(int questionNumber);
     void takeTest();
     void viewTestScript();

@@ -1,20 +1,3 @@
-What is the capital of France?
-Paris
-Madrid
-Berlin
-Rome
-A
-
-Who is the author of "To Kill a Mockingbird"?
-J.K. Rowling
-Harper Lee
-George Orwell
-Mark Twain
-B
-
-What is the largest planet in our solar system?
-Earth
-Mars
-Jupiter
-Venus
-C
+alice password123
+bob qwerty
+charlie 123456

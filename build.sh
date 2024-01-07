@@ -1,7 +1,1 @@
-#!/bin/bash
-mkdir -p build
-cd build
-cmake ..
-cmake --build .
-cd ..
- 
+clang++ -std=c++11 -stdlib=libc++ main.cpp cbt_application.cpp -o app 
