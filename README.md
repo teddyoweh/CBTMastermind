@@ -1,5 +1,6 @@
-# CBTMastermind -  Computer-Based Testing (CBT) Application Design
+Certainly! I have added the instructions for running the build script to the existing documentation:
 
+# CBTMastermind -  Computer-Based Testing (CBT) Application Design
 
 ## Overview
 A standalone Computer-Based Testing (CBT) Applications. The goal is to streamline the testing process, allowing for bulk question uploads, user login management, and efficient test-taking functionalities.
@@ -99,8 +100,14 @@ CBT_Application/
 |-- data/
 |   |-- question_bank.txt
 |   |-- user_data.txt
-
-
+|-- .gitignore
 ```
 
-This folder architecture separates source code, data files, and documentation for a well-organized CBT application project.
+To run the build script, use the following commands in the terminal:
+
+```bash
+chmod +x build.sh
+./build.sh
+```
+
+These commands give execute permission to the `build.sh` script and then run it. Ensure that you are in the correct directory containing the `build.sh` file before executing these commands.
